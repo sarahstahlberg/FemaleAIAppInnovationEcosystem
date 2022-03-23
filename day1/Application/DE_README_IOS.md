@@ -207,7 +207,7 @@ Wir müssen der Web App mitteilen, wo sie unseren Speicherdienst finden kann. Di
 Es fehlt noch eine kleine Konfiguration. Unsere App nutzt einen fertigen Baustein damit Nutzer mit ihren Inhalten interagieren können. Aber dieser Baustein ist noch nicht installiert. Damit er installiert werden kann geben wir der Web App eine Konfiguration mit, die beim Start der App ausgeführt wird und es so ermöglicht, dass Nutzer mit den Daten unserer App interagieren können.
 
 - Navigiere dafür zu **_Konfiguration_** unter _Einstellungen_
-- Unter dem Tab **_Allgemeine Einstellungen_** findest du die _Stapeleinstellungen_. Das ist ein sehr gutes Beispiel für schlechte Übersetzung 😉. Unser App Backend ist in Programmiersprache Python - genauer Python Version 3.8 geschrieben.
+- Unter dem Tab **_Allgemeine Einstellungen_** findest du die _Stapeleinstellungen_. Das ist ein sehr gutes Beispiel für schlechte Übersetzung 😉. Unser App Backend ist in der Programmiersprache Python - genauer Python Version 3.8 geschrieben.
 - Unter **_Startbefehl_** gib `gunicorn -k uvicorn.workers.UvicornWorker` ein uns klick auf 💾 `Speichern`.
 
 ![Bild wie man im App Service den Startbefehl konfiguriert](.\images\light\AppServiceStartupCommand.png)
